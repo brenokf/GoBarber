@@ -4,10 +4,14 @@ import {parseISO} from 'date-fns';
 import AppointmentsRepository from '../repositories/AppointmentsRepository';
 import CreateAppointmentService from '../services/CreateAppointmentService';
 import { getCustomRepository } from 'typeorm';
+import ensureAuthenticated from '../middlewares/ensureAuthenticated';
+
 
 
 
 const appointmentsRouter = Router();
+
+appointmentsRouter.use(ensureAuthenticated);
 
 appointmentsRouter.get('/',async ( request, response)=>{
 
@@ -19,7 +23,7 @@ appointmentsRouter.get('/',async ( request, response)=>{
 
 
 appointmentsRouter.post('/', async (request, response) => {
-  try{
+
   const {provider_id,date} = request.body;
 
   const parsedDate = parseISO(date);
@@ -31,9 +35,7 @@ appointmentsRouter.post('/', async (request, response) => {
   });
 
   return response.json(appointment);
-  }catch (err){
-    return response.status(400).json({ error: err.message })
-  }
+  
 });
 
 export default appointmentsRouter;

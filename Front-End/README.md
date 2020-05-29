@@ -57,3 +57,11 @@ Gobarber Web é aplicação React Js que consiste em cadastro de novos barbeiros
 
 ###### Todas as depencias serão instaladas no seu projeto o **node_modules**
 
+
+### Rodando o Projeto 
+###### Para rodar o projeto você precisa do seguinte comando 
+
+
+    yarn start
+
+##### Fique tranquilo ja deu tudo certo , agora será aberta uma janela no seu navegador padrão e pronto e vualá este projeto está rodando no seu pc 

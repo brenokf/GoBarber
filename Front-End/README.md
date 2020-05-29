@@ -1,4 +1,4 @@
-# GoBarber Web
+# 💇‍♂️ GoBarber Web 💪
 
 ![](https://img.shields.io/github/last-commit/brenokf/GoBarber)![](https://img.shields.io/github/repo-size/brenokf/GoBarber)![](https://img.shields.io/github/languages/count/brenokf/GoBarber)![](https://img.shields.io/github/languages/top/brenokf/GoBarber)
 

@@ -23,7 +23,7 @@ Gobarber Web é aplicação React Js que consiste em cadastro de novos barbeiros
  - Styled Components
 
 
-#####Abaixo mostro o código de validação do Logim GoBarber .
+###Abaixo mostro o código de validação do Logim GoBarber .
 ```typescript
  const formRef = useRef<FormHandles>(null);
 

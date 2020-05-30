@@ -1,10 +1,10 @@
-# GoBarber Web
+# 💇‍♂️ GoBarber Web 💪
 
 ![](https://img.shields.io/github/last-commit/brenokf/GoBarber)![](https://img.shields.io/github/repo-size/brenokf/GoBarber)![](https://img.shields.io/github/languages/count/brenokf/GoBarber)![](https://img.shields.io/github/languages/top/brenokf/GoBarber)
 
 
 
-A aplicação Gobaber Web foi desenvolvida no BootaCamp da RocketSeat.
+A aplicação Gobaber Web foi desenvolvida no BootCamp da RocketSeat.
 
 
 Gobarber Web é aplicação React Js que consiste em cadastro de novos barbeiros e gerenciamento de atendimento aos seus clientes. O profissional de barbearia consegue organizar os seus horários tendo acesso ao dia e horários de cada dia, é um app completo que possibilita agilidade eficácia no atendimento de cada precioso cliente .
@@ -23,7 +23,7 @@ Gobarber Web é aplicação React Js que consiste em cadastro de novos barbeiros
  - Styled Components
 
 
-#####Abaixo mostro o código de validação do Logim GoBarber .
+### Abaixo mostro o código de validação do Logim GoBarber .
 ```typescript
  const formRef = useRef<FormHandles>(null);
 
@@ -57,3 +57,12 @@ Gobarber Web é aplicação React Js que consiste em cadastro de novos barbeiros
 
 ###### Todas as depencias serão instaladas no seu projeto o **node_modules**
 
+
+### Rodando o Projeto 
+###### Para rodar o projeto você precisa do seguinte comando 
+
+
+    yarn start
+
+##### Fique tranquilo ja deu tudo certo , agora será aberta uma janela no seu navegador padrão e pronto e vualá este projeto está rodando no seu pc 
+😃 🤩

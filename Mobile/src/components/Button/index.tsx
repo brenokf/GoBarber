@@ -1,5 +1,6 @@
 import React from 'react';
 import { RectButtonProperties } from 'react-native-gesture-handler';
+import {useField} from '@unform/core';
 import { Container, TextButton } from './styles';
 
 interface ButtonProps extends RectButtonProperties {

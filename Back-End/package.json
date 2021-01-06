@@ -23,6 +23,7 @@
     "pg": "^8.0.3",
     "reflect-metadata": "^0.1.13",
     "tslint-config-airbnb": "^5.11.2",
+    "tsyringe": "^4.4.0",
     "type": "^1.1.0",
     "typeorm": "^0.2.24",
     "uuidv4": "^6.0.7"

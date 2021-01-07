@@ -1,4 +1,5 @@
-import {getRepository} from 'typeorm';
+
+import {inject, injectable} from 'tsyringe'
 import User from '@modules/users/infra/typeorm/entities/User';
 import path from 'path';
 import fs from 'fs';
@@ -12,10 +13,13 @@ interface IRequest {
 
 }
 
+@injectable()
 class UpadteUserAvatarService {
 
 
-  constructor(private userRepository: IUsersRepository){}
+  constructor(
+    @inject('UsersRepository')
+    private userRepository: IUsersRepository){}
   public async execute({ user_id, avatarFilename }:IRequest): Promise<User>{
 
     const user = await this.userRepository.findById(user_id);

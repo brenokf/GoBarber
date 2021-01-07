@@ -1,4 +1,4 @@
-
+import {inject, injectable} from 'tsyringe'
 import User from '@modules/users/infra/typeorm/entities/User';
 import {compare}from 'bcryptjs';
 import {sign, verify} from 'jsonwebtoken';
@@ -15,9 +15,13 @@ interface IResponse{
   user: User,
   token:string,
 }
-
+@injectable()
 class AuthenticateUserService {
-  constructor(private userRepository: IUsersRepository){}
+  constructor(
+    @inject('UsersRepository')
+    private userRepository: IUsersRepository,
+    ){}
+
   public async execute({email, password}:IRequest): Promise<IResponse>{
 
 

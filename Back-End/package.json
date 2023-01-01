@@ -44,7 +44,7 @@
     "prettier": "^2.0.4",
     "ts-jest": "^26.4.4",
     "ts-node-dev": "^1.0.0-pre.44",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.14.1",
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3",
